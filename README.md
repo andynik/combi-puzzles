@@ -24,10 +24,6 @@ These variations are designed to thoroughly evaluate problem-solving strategies 
 
 ## Problem Example
 
-```html
-<img src="https://github.com/andynik/combi-puzzles-24/images/p10.png" alt="Problem Example" width="400"/>
-```
-
 ![Problem Example](images/p10.png)
 
 The image above illustrates an example of a combinatorial problem and its variations. The highlighted text indicates content modifications based on the common version. The mathematical and linguistic obfuscation variations constitute the new text
