@@ -2,6 +2,7 @@
 
 [![Paper](https://img.shields.io/badge/Paper-arXiv%3A2412.11908-B31B1B)](https://arxiv.org/abs/2412.11908)
 [![Hugging Face Dataset](https://img.shields.io/badge/Hugging%20Face-Dataset-blue)](https://huggingface.co/datasets/andynik/combi-puzzles)
+[![GitHub Repo](https://img.shields.io/badge/GitHub-Repo-181717?logo=github)](https://github.com/andynik/combi-puzzles-24)
 
 This repository contains the Combi-Puzzles dataset used in the research paper titled "Can Language Models Rival Mathematics Students? Evaluating Mathematical Reasoning through Textual Manipulation and Human Experiments."
 
@@ -23,6 +24,14 @@ The Combi-Puzzles dataset includes:
   - **Linguistic Obfuscation**: Narrative fictional stories with problem context.
 
 These variations are designed to thoroughly evaluate problem-solving strategies across different formats.
+
+## Additional Information
+
+The Combi-Puzzles dataset contains problems that have parameters expressed in string format (e.g. 12 as "twelve"). These problems are identified as:
+
+- **Problems' ID with String Parameters**: 6, 12, 19, 20.
+
+Please note that all parameters are stored as `strings` in the dataset to ensure consistency.
 
 ## Problem Example
 
