@@ -1,0 +1,563 @@
+{
+	"puzzles": [
+	{
+		"id": 1,
+		"versions" : [
+			{"version": "math",
+			"problem_statement": "How many permutations can be produced by drawing balls numbered 0 to 9 from an urn with replacement 4 times?"},
+			{"version": "common",
+			"problem_statement": "A bike locker has a $param1$-digit code. How many different codes exist?"},
+			{"version": "linguistic_obfuscation",
+			"problem_statement": "4 spaceships, called K-23, K-14, K-15 and K-29, are making preparations before going into battle. They have arranged themselves in a straight line. Each of the spaceships has the ability to change the colour of its outside using a program. The possible colors are: black, white, orange, red, blue, green, yellow, purple, brown and grey. If they randomly choose their colors, how many different constellations are there?"},
+			{"version": "adversarial",
+			"problem_statement": "A bike locker has a 4-digit code. The locker is made from 3 materials: copper, silver and steel. How many different codes exist?"}
+		],
+		"parameters": [
+			{"group_id": 1,
+			"param1": 4},
+			{"group_id": 2,
+			"param1": 9}
+		]
+	},
+
+	{
+		"id": 2,
+		"versions" : [
+			{"version": "math",
+			"problem_statement": "You draw without replacement from an urn containing $param1$ balls numbered 1 to 16. How many distinct permutations are there?"},
+			{"version": "common",
+			"problem_statement": "You want to arrange $param1$ bingo balls in a sequence. How many distinct sequences are there?"},
+			{"version": "linguistic_obfuscation",
+			"problem_statement": "A princess sits in her castle and looks at her 16 beautiful unicorns. Each one has its own name, its own fur colour and its own decorations. The princess wants to impress her subjects with the most amazing parade, one unicorn after the other will ride down the street. She is considering which ordering will be most pleasing: should she start with Tango, followed by Twisty who share the same saddle colour? Or arrange them in a different way? She spends a lot of time imagining how her unicorns will appear in the parade. How many different parades are there?"},
+			{"version": "adversarial",
+			"problem_statement": "There are 100 people watching a lottery show and waiting for the results. You want to arrange 16 bingo balls in a sequence. How many distinct sequences are there?"}
+		],
+		"parameters": [
+			{"group_id": 1,
+			"param1": 16},
+			{"group_id": 2,
+			"param1": 99}
+		]
+	},
+
+	{
+		"id": 3,
+		"versions" : [
+			{"version": "math",
+			"problem_statement": "How many distinct ways are there to draw a sequence of 3 balls without replacement from an urn containing balls numbered 1 to 10?"},
+			{"version": "common",
+			"problem_statement": "$param1$ countries take part in a curling event. How many ways are there to assign the gold, silver and bronze medals to the winning countries?"},
+			{"version": "linguistic_obfuscation",
+			"problem_statement": "10 bear brothers arrive at Goldilock's house. They are each one year older than the other -- the oldest is 10, the youngest is just one year old. They love the scenery at Goldilock's house. -- Oh, how delicious the pudding smells! -- How soft the bed is! -- And how warm and bubbly the bath that somebody has prepared! The brothers all run forwards and struggle to get to the pudding, the bath and the bed. They fall over each other getting there -- the older ones pushing the younger ones aside, the fastest ones running around the slower ones. But at the end of the day, whatever you do, there is only one bath, one pudding and one bed. How many different outcomes are there for 3 brothers out of the 10 to get the three rewards?"},
+			{"version": "adversarial",
+			"problem_statement": "10 countries take part in a curling event. How many ways are there to assign the gold, silver and bronze medals to the winning countries? The medals have 3 different shapes: square, oval and round, respectively."}
+		],
+		"parameters": [
+			{"group_id": 1,
+			"param1": 10},
+			{"group_id": 2,
+			"param1": 206}
+		]
+	},
+
+	{
+		"id": 4,
+		"versions" : [
+			{"version": "math",
+			"problem_statement": "How many valid bracketed sequences are there given 6 positions? Valid bracketed sequence is a valid arithmetic expression from which all numbers and operators have been removed."},
+			{"version": "common",
+			"problem_statement": "There is a line in a cinema for a movie. The ticket costs 5 pounds. $param1$ people have a 10 pound banknote each and $param1$ people have a 5 pound banknote each. At the beginning the ticket cashier does not have any change. How many distinct ways are there to form a line, so that everybody can buy a ticket?"},
+			{"version": "linguistic_obfuscation",
+			"problem_statement": "Many dragons and princes are getting ready for a masquerade ball. There is a guard at the door of the ball, and she will not let anybody enter without a mask. But there is a problem -- princes don't have any masks. Dragons, on the other hand, each are born with two masks, and because they are generous creatures, they want to help as many princes as possible to enter with them. So before entering, each dragon deposits their second mask with the guard, so that the next prince who arrives can enter the masquerade. During one particular hour before the masquerade starts, three dragons and three princes arrive at various times at the door to the ball. How many possible arrival sequences are there so that all six can enjoy the masquerade together?"},
+			{"version": "adversarial",
+			"problem_statement": "There is a line in a cinema for a movie. The ticket costs 5 pounds. 3 people have a 10 pound banknote each and 3 people have a 5 pound banknote each. At the beginning the ticket cashier does not have any change. In addition to cinema tickets all guests get a great deal: a free popcorn box and a can of Coca-Cola or Sprite for just 2 pounds. How many distinct ways are there to form a line, so that everybody can buy a ticket?"}
+		],
+		"parameters": [
+			{"group_id": 1,
+			"param1": 3},
+			{"group_id": 2,
+			"param1": 5}
+		]
+	},
+
+	{
+		"id": 5,
+		"versions" : [
+			{"version": "math",
+			"problem_statement": "Your current position is a place A. You want to reach place B, which is 2 steps to the right of you and 2 steps down. You draw with replacement from an urn with 2 balls labelled 'go 1 step down' and 'go 1 step right'. You draw 4 times. How many sequences will get you to place B?"},
+			{"version": "common",
+			"problem_statement": "There is a $param1$x$param1$ grid board. A marker is placed in the top left corner. At any given point, the marker has two legal moves: 1. Move down one square; 2. Move right one square; The marker cannot move diagonally. The marker cannot move up or left. How many distinct paths can the marker take to reach the bottom right corner?"},
+			{"version": "linguistic_obfuscation",
+			"problem_statement": "I am on the north-western city block of Manhattan. I can only drive to the city block east or south to the one I am currently at and there are traffic lights at the intersection of blocks. I cannot drive any other direction. How many distinct routes are there for me to get one to the south-eastern city block that is exactly 2 blocks to the east and 2 blocks to the south."},
+			{"version": "adversarial",
+			"problem_statement": "There is a 3x3 grid board. A marker is placed in the top left corner. At any given point, the marker has two legal moves: 1. Move down one square; 2. Move right one square; The marker cannot move diagonally. The marker cannot move up or left. Initially, the squares of the board are in one of 2 colours, black and white. After each move, the marker changes its color to one of the rainbow colors. How many distinct paths can the marker take to reach the bottom right corner?"}
+		],
+		"parameters": [
+			{"group_id": 1,
+			"param1": 3},		
+			{"group_id": 2,
+			"param1": 101}
+		]
+	},
+
+	{
+		"id": 6,
+		"versions" : [
+			{"version": "math",
+			"problem_statement": "How many different permutations of the string AABBBOO exist?"},
+			{"version": "common",
+			"problem_statement": "Lia has $param1$ apples, $param2$ bananas and $param3$ oranges. For the upcoming $param4$, she wants to eat one fruit every day. How many ways are there to do it?"},
+			{"version": "linguistic_obfuscation",
+			"problem_statement": "An astronaut is alone in a space station. He has only 7 food rations. There are 3 chicken dinners, 2 steak dinners, and 2 lasagnas. He has also 3 hot drinks left: coffee with milk, herbal tea and a hot chocolate. The astronaut considers very carefully the sequence of foods before him. How many different sequences are there?"},
+			{"version": "adversarial",
+			"problem_statement": "Lia has 2 apples, 3 bananas and 2 oranges. For the upcoming week, she wants to eat one fruit every day. Apples weigh 100g, bananas weigh 150g and oranges weigh 200g. How many ways are there to do it?"}
+		],
+		"parameters": [
+			{"group_id": 1,
+			"param1": 2},
+			{"group_id": 1,
+			"param2": 3},
+			{"group_id": 1,
+			"param3": 2},
+			{"group_id": 1,
+			"param4": "week"},
+			{"group_id": 2,
+			"param1": 11},
+			{"group_id": 2,
+			"param2": 10},
+			{"group_id": 2,
+			"param3": 9},
+			{"group_id": 2,
+			"param4": "September"}
+		]
+	},
+
+	{
+		"id": 7,
+		"versions" : [
+			{"version": "math",
+			"problem_statement": "In an urn there are 5 balls numbered 1 to 5. You draw 5 times without replacement. How many distinct sequences are there starting with ball number 1?"},
+			{"version": "common",
+			"problem_statement": "There are $param1$ people dancing a circle dance. How many distinct ways are there to arrange them?"},
+			{"version": "linguistic_obfuscation",
+			"problem_statement": "A planetary engineer is creating an expensive wedding present for her fiancee. She arranges 5 stars in a circle in the firmament and makes them constantly go around in a circle. This feat was performed so that the fiancee can admire the engineer's ingenuity every time he looks up at night. The stars chosen are a red dwarf, a red giant, a blue dwarf, a supernova and a white giant. How many different ways can she arrange the 5 stars?"},
+			{"version": "adversarial",
+			"problem_statement": "There are 5 people dancing a circle dance. For each song they perform one of 3 dance styles. How many distinct ways are there to arrange them?"}
+		],
+		"parameters": [
+			{"group_id": 1,
+			"param1": 5},
+			{"group_id": 2,
+			"param1": 23}
+		]
+	},
+
+	{
+		"id": 8,
+		"versions" : [
+			{"version": "math",
+			"problem_statement": "In an urn there are 10 balls numbered 1 to 10. You draw 3 times without replacement. How many distinct sets of balls are there?"},
+			{"version": "common",
+			"problem_statement": "There are $param1$ students and $param2$ tickets for a May Ball. How many ways are there to pick the lucky winners?"},
+			{"version": "linguistic_obfuscation",
+			"problem_statement": "10 computational linguists are told that they should attend the King's annual garden party, and that he will randomly choose three of them who will receive a knighthood. The computational linguists are very excited and try to work out how many different ways there are to assign these knighthoods to them."},
+			{"version": "adversarial",
+			"problem_statement": "There are 10 students and 3 tickets for a May Ball. At 9 pm the fireworks begin. There are 5 different types of fireworks arranged in a random sequence. How many ways are there to pick the lucky winners?"}
+		],
+		"parameters": [
+			{"group_id": 1,
+			"param1": 10},
+			{"group_id": 1,
+			"param2": 3},
+			{"group_id": 2,
+			"param1": 50},
+			{"group_id": 2,
+			"param2": 15}
+		]
+	},
+
+	{
+		"id": 9,
+		"versions" : [
+			{"version": "math",
+			"problem_statement": "In an urn there are 3 balls numbered 1 to 3. You draw 6 times with replacement. How many distinct sets of balls are there?"},
+			{"version": "common",
+			"problem_statement": "$param1$ girls found $param2$ black pearls. How many distinct ways are there to divide all pearls between the girls, so that each girl gets at least one pearl?"},
+			{"version": "linguistic_obfuscation",
+			"problem_statement": "Three garbage trucks have been ordered to a hoarder's house. There are only 9 pieces of furniture left at the house, and there is only one parking spot. Furniture will be carried out by the cleaners in a random fashion and whichever truck is in the parking spot will receive the furniture. Trucks take turns with the parking spot. Each truck is allowed in the parking lot only for 5 minutes, and the other trucks circle around the house until their turn comes. The lorry drivers only get paid if each truck carries at least one piece of furniture, so they agree that whatever happens, they will share the furniture so that each truck has at least one piece of furniture. After this process, the trucks arrive at the garbage disposal and the drivers compare how many pieces of furniture each has. How many possibilities are there?"},
+			{"version": "adversarial",
+			"problem_statement": "3 girls found 9 black pearls. To make the diving process easier, the girls can use one or more of 3 tools: a flashlight, a mask and flippers. How many distinct ways are there to divide all pearls between the girls, so that each girl gets at least one pearl?"}
+		],
+		"parameters": [
+			{"group_id": 1,
+			"param1": 3},
+			{"group_id": 1,
+			"param2": 9},
+			{"group_id": 2,
+			"param1": 13},
+			{"group_id": 2,
+			"param2": 54}
+		]
+	},
+
+	{
+		"id": 10,
+		"versions" : [
+			{"version": "math",
+			"problem_statement": "In an urn there are 3 balls numbered 1 to 3. You draw 9 times with replacement. How many distinct sets of balls are there"},
+			{"version": "common",
+			"problem_statement": "$param1$ girls found $param2$ white pearls. How many distinct ways are there to divide all pearls between girls? It is not necessary that all girls get pearls."},
+			{"version": "linguistic_obfuscation",
+			"problem_statement": "3 pirates enter a frigate that has just surrendered to them. They know that there are nine bars of solid gold on board. According to pirate law, any pirate who finds some loot on board a commandeered ship can keep it. They swarm out into every nook and cranny of the ship to find the gold -- each hoping that she will get all nine, and dreading a situation where she finds nothing. How many ways are there to assign the gold bars to the pirates?"},
+			{"version": "adversarial",
+			"problem_statement": "3 girls found 9 white pearls. All girls are professional free divers and can hold their breath from 8 to 10 minutes. How many distinct ways are there to divide all pearls between girls? It is not necessary that all girls get pearls."}
+		],
+		"parameters": [
+			{"group_id": 1,
+			"param1": 3},
+			{"group_id": 1,
+			"param2": 9},
+			{"group_id": 2,
+			"param1": 13},
+			{"group_id": 2,
+			"param2": 54}
+		]
+	},
+
+	{
+		"id": 11,
+		"versions" : [
+			{"version": "math",
+			"problem_statement": "In an urn there are 5 balls numbered 1 to 5. You draw 3 times with replacement. How many distinct sets of balls are there?"},
+			{"version": "common",
+			"problem_statement": "There are $param1$ flavors of ice cream. How many ways are there to arrange $param2$ scoops of ice cream?"},
+			{"version": "linguistic_obfuscation",
+			"problem_statement": "A baroness is designing her favorite flower bouquet. Only three flowers fit into her vase, but she has in her garden many sunflowers, dahlias, roses, peonies, and cornflowers. And she likes all of them very much. Even putting the same kind of flower more than once into the vase is an option. Thinking about all the possibilities for doing this, she decides she will delegate this important design task to her chief of staff. How many different arrangements can the chief come up with for her?"},
+			{"version": "adversarial",
+			"problem_statement": "There are 5 flavors of ice cream. There was also an additional 6th flavor -- citrus but it was very popular and all scoops of it were already sold. How many ways are there to arrange 3 scoops of ice cream?"}
+		],
+		"parameters": [
+			{"group_id": 1,
+			"param1": 5},
+			{"group_id": 1,
+			"param2": 3},
+			{"group_id": 2,
+			"param1": 10},
+			{"group_id": 2,
+			"param2": 7}
+		]
+	},
+
+	{
+		"id": 12,
+		"versions" : [
+			{"version": "math",
+			"problem_statement": "There are 3 distinct objects. How large is the superset (set of sets) formed out of there?"},
+			{"version": "common",
+			"problem_statement": "Clare has $param1$ cats. Every day, she decides which cats she will feed. How many ways are there for Clare to feed the cats?"},
+			{"version": "linguistic_obfuscation",
+			"problem_statement": "The emperor's astronomer is observing the sky each night, to do an important calculation for the emperor. She is looking at three particularly beautiful stars -- one in the eastern sky, one in the southern sky and one in the western sky, and recording each night for each of the stars whether they are obscured by clouds even just for a second, or not. After several days of observation, how many different records could she have?"},
+			{"version": "adversarial",
+			"problem_statement": "Clare has three cats. Every day, she decides which cats she will feed. If a cat was not fed, then it goes to the garden and tries to catch one of 2 possible animals: a mouse or a bird. How many ways are there for Clare to feed the cats?"}
+		],
+		"parameters": [
+			{"group_id": 1,
+			"param1": "three"},
+			{"group_id": 2,
+			"param1": "twelve"}
+		]
+	},
+
+	{
+		"id": 13,
+		"versions" : [
+			{"version": "math",
+			"problem_statement": "In an urn there are 10 balls numbered 1 to 10. You draw 7 times without replacement. How many distinct sets of balls are there?"},
+			{"version": "common",
+			"problem_statement": "There are $param1$ pupils and only $param2$ places on a bus to Disneyland. How many ways are there to pick the unlucky pupils?"},
+			{"version": "linguistic_obfuscation",
+			"problem_statement": "A witch is impressed with her class of ten apprentices and wants to reward them with advanced lessons. She can only deliver these lessons to 3 of the apprentices. Therefore, she needs to decide who will be excluded from these lessons. She needs to prepare a teaching schedule – how many ways to select which group of apprentices will be excluded."},
+			{"version": "adversarial",
+			"problem_statement": "There are 10 pupils and only 3 places on a bus to Disneyland. There are 8 different attractions available in the theme park. How many ways are there to pick the unlucky pupils?"}
+		],
+		"parameters": [
+			{"group_id": 1,
+			"param1": 10},
+			{"group_id": 1,
+			"param2": 3},
+			{"group_id": 2,
+			"param1": 33},
+			{"group_id": 2,
+			"param2": 7}
+		]
+	},
+
+	{
+		"id": 14,
+		"versions" : [
+			{"version": "math",
+			"problem_statement": "In how many ways can you break up the number 100 into a sum of integers of 5, 10 and 50? The ordering of the integers does not matter."},
+			{"version": "common",
+			"problem_statement": "A console costs $param1$ pounds. You want to buy the console in cash. You have several banknotes of 5, 10 and 50 pounds. How many ways to pay are there so that there is no need for a change?"},
+			{"version": "linguistic_obfuscation",
+			"problem_statement": "Logging on the planet Pandora is essential for the production of tables big enough for many galactic species. A log in Pandora is being sliced into pieces to make tables for Navi. The log is 100m long. It can be cut in slices of 5m, 10m or 50m so that it can produce a small, medium or large table, respectively. How many distinct constellations of tables can be produced by the log?"},
+			{"version": "adversarial",
+			"problem_statement": "A console, which comes with a new game from the latest collection of 5 games, costs 100 pounds. You want to buy the console in cash. You have several banknotes of 5, 10 and 50 pounds. How many ways to pay are there so that there is no need for a change?"}
+		],
+		"parameters": [
+			{"group_id": 1,
+			"param1": 100},
+			{"group_id": 2,
+			"param1": 200}
+		]
+	},
+
+	{
+		"id": 15,
+		"versions" : [
+			{"version": "math",
+			"problem_statement": "There are two urns, Urn 1 with balls 1, 3, 5 and Urn 2 with balls 2 and 4. You draw from Urn 1, then from Urn 2, then back to Urn 1, and so on. You always draw without replacement. How many sequences can you create?"},
+			{"version": "common",
+			"problem_statement": "There are $param1$ red balls and $param2$ blue balls. Red balls are labelled with odd numbers between 1 and $param3$, blue balls are labelled with even numbers between 1 and $param3$. In how many ways can we arrange them in a line, so that no balls of the same color are next to each other?"},
+			{"version": "linguistic_obfuscation",
+			"problem_statement": "The queen is arranging guests at her banquet table, in one long line. She has guests from her own family and from her husband's family. From her husband's side, there are three guests: her brother-in law, her mother-in-law and her father-in-law. From her own side, there are two guests: her sister and her niece. Court etiquette requires that family members from the same family can under no circumstances be placed together. In how many ways can she arrange her guests?"},
+			{"version": "adversarial",
+			"problem_statement": "There are 3 red balls and 2 blue balls. Red balls are labelled with odd numbers between 1 and 5, blue balls are labelled with even numbers between 1 and 5. If a ball's number is divisible by 3, it is metal, otherwise it is wooden. In how many ways can we arrange them in a line, so that no balls of the same color are next to each other?"}
+		],
+		"parameters": [
+			{"group_id": 1,
+			"param1": 3},
+			{"group_id": 1,
+			"param2": 2},
+			{"group_id": 1,
+			"param3": 5},		
+			{"group_id": 2,
+			"param1": 12},
+			{"group_id": 2,
+			"param2": 11},
+			{"group_id": 2,
+			"param3": 23}
+		]
+	},
+
+	{
+		"id": 16,
+		"versions" : [
+			{"version": "math",
+			"problem_statement": "There is a sequence of 7 balls labelled zero and 5 balls labelled 1 to 5, respectively. How many distinct permutations are there if non-zero balls cannot stand next to each other?"},
+			{"version": "common",
+			"problem_statement": "Simone has $param1$ books on her shelf. In how many ways can she pick $param2$ books which do not currently stand together?"},
+			{"version": "linguistic_obfuscation",
+			"problem_statement": "You are making an exercise plan for a top athlete. The athlete needs to practice stretching, running, shooting, skiing, swimming sessions. Each session must take a full day of practice. There are 12 days left before the biathlon competition. The athlete cannot exercise more than one day in a row without taking a full day of rest. How many different exercise plans can you make?"},
+			{"version": "adversarial",
+			"problem_statement": "Simone has 12 books on her shelf, each of which cost 10 pounds. In how many ways can she pick 5 books which do not currently stand together?"}
+		],
+		"parameters": [
+			{"group_id": 1,
+			"param1": 12},
+			{"group_id": 1,
+			"param2": 5},
+			{"group_id": 2,
+			"param1": 35},
+			{"group_id": 2,
+			"param2": 10}
+		]
+	},
+
+	{
+		"id": 17,
+		"versions" : [
+			{"version": "math",
+			"problem_statement": "In an urn there are balls in 4 colours, 13 of each type labelled from 1 to 13. You draw 4 times without replacement. How many sets of balls with 4 distinct colours are there?"},
+			{"version": "common",
+			"problem_statement": "How many ways are there to choose $param1$ cards of different suits from a full deck of cards?"},
+			{"version": "linguistic_obfuscation",
+			"problem_statement": "You have become ruler over 4 planetary systems. Each system has 13 planets. You now have 52 planets that are your property, each with beautiful landscapes, beaches and mountains. Where to holiday first? It's a hard choice. You decide that in the first year, you will make 4 holidays, each in a different planetary system. How many different ways to spend this year's holidays are there?"},
+			{"version": "adversarial",
+			"problem_statement": "You have 3 identical decks of cards and you pick one of them. How many ways are there to choose 4 cards of different suits from a full deck of cards?"}
+		],
+		"parameters": [
+			{"group_id": 1,
+			"param1": 4},
+			{"group_id": 2,
+			"param1": 2}
+		]
+	},
+
+	{
+		"id": 18,
+		"versions" : [
+			{"version": "math",
+			"problem_statement": "There are two urns containing 3 and 5 objects, respectively. How many ways to pick one from each urn?"},
+			{"version": "common",
+			"problem_statement": "There are $param1$ roads between Cambridge and London, and $param2$ roads between London and Oxford. How many ways are there to travel from Cambridge to Oxford through London?"},
+			{"version": "linguistic_obfuscation",
+			"problem_statement": "A knight, who lives in Greenfields town, intends to participate at the annual jousting event. First, he has to go Ponyville town, where he will get his noble horse. There are 3 roads between Greenfields and Ponyville. He has a choice of 7 horses at Ponyville. After that, he has to go to Saddleford town and pick the brand-new shiny and comfortable saddle. There are 5 roads between Ponyville and Saddleford. How many ways are there to travel from Greenfields to Saddleford through Ponyville?"},
+			{"version": "adversarial",
+			"problem_statement": "There are 3 roads between Cambridge and London, 5 roads between London and Oxford, and 7 roads between Liverpool and London. How many ways are there to travel from Cambridge to Oxford through London?"}
+		],
+		"parameters": [
+			{"group_id": 1,
+			"param1": 3},
+			{"group_id": 1,
+			"param2": 5},
+			{"group_id": 2,
+			"param1": 11},
+			{"group_id": 2,
+			"param2": 20}
+		]
+	},
+
+	{
+		"id": 19,
+		"versions" : [
+			{"version": "math",
+			"problem_statement": "There is an urn with 9 balls numbered 1 to 9. You draw 2 times without replacement. How many distinct permutations are there?"},
+			{"version": "common",
+			"problem_statement": "Two players are playing tic-tac-toe. They just started a new game, and each player made $param1$. How many game positions are there at this stage of the game?"},
+			{"version": "linguistic_obfuscation",
+			"problem_statement": "I am getting married and my divorced parents will be attending the wedding. My mother and father do not like each other and cannot stand being in the same room. My mansion has nine bedrooms, so, I can assign one room for my mother and another for my father. How many are there to allocate rooms to my parents?"},
+			{"version": "adversarial",
+			"problem_statement": "Two players are playing tic-tac-toe. The size of their board is 13 centimeters by 13 centimeters. They just started a new game, and each player made one move. How many game positions are there at this stage of the game?"}
+		],
+		"parameters": [
+			{"group_id": 1,
+			"param1": "one move"},
+			{"group_id": 2,
+			"param1": "two moves"}
+		]
+	},
+
+	{
+		"id": 20,
+		"versions" : [
+			{"version": "math",
+			"problem_statement": "How many distinct strings could be created from the string ABCDE if A must go before B and C must go before D?"},
+			{"version": "common",
+			"problem_statement": "Andrii is trying to put some clothes on. He has to put on $param1$. In how many ways can he do it?"},
+			{"version": "linguistic_obfuscation",
+			"problem_statement": "You oversee two islands and a ceremonial boat, and your job is to make sure several preparations for an important festival are made. On each island, the highest tree needs to be felled and then carved into a totem to be placed on the beach. As soon as one of the two tree is felled, a telegram is transmitted to the mainland and given a time stamp. When one of the two totems is placed on the beach, another telegram is transmitted. You also need to make sure the ceremonial boat is decorated. Again, when this task is finished, a telegram is transmitted. You have workers on each island, and on the boat. You do not know how long each task takes. At the end of the preparations, you look a the order of the incoming telegrams. How many different sequences are there in which the telegrams can come in?"},
+			{"version": "adversarial",
+			"problem_statement": "To get to a formal event, Andrii has ordered a taxi, which will arrive at 7 o'clock. But, first, he has to put on some clothes: socks, shoes and a hat. In how many ways can he do it?"}
+		],
+		"parameters": [
+			{"group_id": 1,
+			"param1": "socks, shoes and a hat"},
+			{"group_id": 2,
+			"param1": "socks, shoes, gloves and a hat"}
+		]
+	},
+
+	{
+		"id": 21,
+		"versions" : [
+			{"version": "math",
+			"problem_statement": "The cardinality of set A is 10, the cardinality of set B is 6, the cardinality of intersection of A nad B is 3. How many elements are there in the union of A and B?"},
+			{"version": "common",
+			"problem_statement": "A group of students are going to choose their classes. $param1$ students chose mathematics classes, $param2$ chose programming classes. In the group there are $param3$ students who choose both. How large is the group in total?"},
+			{"version": "linguistic_obfuscation",
+			"problem_statement": "A group of coal miners are invited to a day spa. They can choose any treatment they like: massage or pedicure. At the end of the day, they compare their activities.10 of the miners had been to the massage, and six had a pedicure. Three had both the massage and the pedicure. How many miners are there in total?"},
+			{"version": "adversarial",
+			"problem_statement": "A group of students are going to choose their classes. 10 students chose mathematics classes, 6 chose programming classes. In the group there are 3 students who choose both. Students who picked just one class must sign up for another class chosen among 3 other subjects: biology, geography or history. How large is the group in total?"}
+		],
+		"parameters": [
+			{"group_id": 1,
+			"param1": 10},
+			{"group_id": 1,
+			"param2": 6},
+			{"group_id": 1,
+			"param3": 3},
+			{"group_id": 2,
+			"param1": 50},
+			{"group_id": 2,
+			"param2": 30},
+			{"group_id": 2,
+			"param3": 15}
+		]
+	},
+
+	{
+		"id": 22,
+		"versions" : [
+			{"version": "math",
+			"problem_statement": "An urn contains 1 black and 1 white ball. You draw 4 times with replacement. How many sequences are there?"},
+			{"version": "common",
+			"problem_statement": "There is a $param1$ by $param1$ pixel grid. The only allowed color values are black and white. How many different images are there?"},
+			{"version": "linguistic_obfuscation",
+			"problem_statement": "Four young dinosaurs are hatching on the same day: a brontosaur, a tyrannosaurus rex, a raptor and a stegosaurus. Their mothers have left them alone in their nest, and they need to wait till the evening when their mothers return to protect them. However, some brutal mammalian predators are on the move today and they are eating some of the baby dinosaurs. When the four mothers return to the nest, how many different outcomes can they found?"},
+			{"version": "adversarial",
+			"problem_statement": "There is 2 by 2 pixel grid. The only allowed color values are black and white. The display resolution of the laptop is 1080p. How many different images are there?"}
+		],
+		"parameters": [
+			{"group_id": 1,
+			"param1": 2},
+			{"group_id": 2,
+			"param1": 16}
+		]
+	},
+
+	{
+		"id": 23,
+		"versions" : [
+			{"version": "math",
+			"problem_statement": "An urn contains 6 balls numbered 1 to 6. You draw 5 times with replacement. How many distinct sequences are there?"},
+			{"version": "common",
+			"problem_statement": "You roll a dice $param1$ times in a row and write down the numbers you get. How many distinct sequences of numbers can you have?"},
+			{"version": "linguistic_obfuscation",
+			"problem_statement": "You just arrived at boarding school and they told you their meal plan. Because of strikes at your school canteen, they will not be working one school day each week. School days are Monday to Saturday, and they will randomly decide which one out of these days that is. After 5 weeks of this, it will be your holiday and you will get to go home and eat properly. For fun you calculate how many different sequences of hungry school days there are until then."},
+			{"version": "adversarial",
+			"problem_statement": "You roll a dice 5 times in a row and write down the numbers you get. Each roll takes 10 seconds. How many distinct sequences of numbers can you have?"}
+		],
+		"parameters": [
+			{"group_id": 1,
+			"param1": 5},
+			{"group_id": 2,
+			"param1": 19}
+		]
+	},
+
+	{
+		"id": 24,
+		"versions" : [
+			{"version": "math",
+			"problem_statement": "An urn contains 7 balls numbered 1 to 7. You draw 7 times without replacement. How many distinct sequences are there?"},
+			{"version": "common",
+			"problem_statement": "There are $param1$ different professions, which must be covered by $param1$ people. How many ways are there to assign professions to people?"},
+			{"version": "linguistic_obfuscation",
+			"problem_statement": "Seven princess sisters are ordered to marry seven princes who are brothers. The two kings decide that the eldest sister has to marry the eldest brother, and so on. However, when the princes and princesses go on their first joint date and see all the other princesses and princes, a rebellious idea forms in their minds: they want to decide themselves how to make the match. How many different ways are there to make these matches?"},
+			{"version": "adversarial",
+			"problem_statement": "There are 7 different professions, which must be covered by 7 people. Each person studied for 4 years to qualify for the position. How many ways are there to assign professions to people?"}
+		],
+		"parameters": [
+			{"group_id": 1,
+			"param1": 7},
+			{"group_id": 2,
+			"param1": 31}
+		]
+	},
+
+	{
+		"id": 25,
+		"versions" : [
+			{"version": "math",
+			"problem_statement": "There is an urn with 25 white balls numbered 1 to 25 and 25 black balls numbered 1 to 25. You draw 25 times without replacement. Every time you draw a ball with label N, other ball with the same label but other color disappears from the urn. How many distinct sets of balls with 3 or less black balls are there?"},
+			{"version": "common",
+			"problem_statement": "There are $param1$ puzzles in the puzzle set. You solve puzzles one by one starting from the first puzzle. If you solve all puzzles and make no more than $param2$ mistakes, you win a cake. How many distinct ways are there to win the cake?"},
+			{"version": "linguistic_obfuscation",
+			"problem_statement": "A young boy is applying for a position as a monk in a monastery. The abbot says they have to prove themselves, by succeeding in doing 25 hard tasks over the next 25 days. They can fail in 3 of these tasks, but no more, and still become a monk. How many different ways are there for the boy to either fail or succeed in the tasks if he wants to end up as a monk?"},
+			{"version": "adversarial",
+			"problem_statement": "There are 25 puzzles in the puzzle set. You solve puzzles one by one starting from the first puzzle. The puzzles are starting with difficulty level 7, going down to difficulty level 1. If you solve all puzzles and make no more than 3 mistakes, you win a cake. How many distinct ways are there to win the cake?"}
+		],
+		"parameters": [
+			{"group_id": 1,
+			"param1": 25},
+			{"group_id": 1,
+			"param2": 3},
+			{"group_id": 2,
+			"param1": 100},
+			{"group_id": 2,
+			"param2": 10}
+		]
+	}
+  ]
+}
