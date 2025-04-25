@@ -2,7 +2,7 @@
 
 [![Paper](https://img.shields.io/badge/Paper-arXiv%3A2412.11908-B31B1B)](https://arxiv.org/abs/2412.11908)
 [![Hugging Face Dataset](https://img.shields.io/badge/Hugging%20Face-Dataset-blue)](https://huggingface.co/datasets/andynik/combi-puzzles)
-[![GitHub Repo](https://img.shields.io/badge/GitHub-Repo-181717?logo=github)](https://github.com/andynik/combi-puzzles)
+[![GitHub Repo](https://img.shields.io/badge/GitHub-Repository-181717?logo=github)](https://github.com/andynik/combi-puzzles)
 
 This repository contains the Combi-Puzzles dataset used in the research paper titled "Can Language Models Rival Mathematics Students? Evaluating Mathematical Reasoning through Textual Manipulation and Human Experiments."
 
@@ -12,7 +12,7 @@ The dataset is available in `JSON` and in `Parquet` formats on the [Hugging Face
 
 ### Dataset Description
 
-The Combi-Puzzles dataset includes:
+The Combi-Puzzles dataset includes 125 problems:
 - **25 Base Combinatorial Problems**: Covers permutations, combinations, rules of addition/multiplication, and object arrangements.
 - **5 Variations per Problem**:
   - **Common**: Standard textbook form.
