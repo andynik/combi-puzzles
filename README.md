@@ -6,13 +6,15 @@
 
 This repository contains the Combi-Puzzles dataset used in the research paper titled "Can Language Models Rival Mathematics Students? Evaluating Mathematical Reasoning through Textual Manipulation and Human Experiments."
 
-The Combi-Puzzles dataset is available in [JSON format](./data/combi-puzzles.json).
+The dataset is available in `JSON` and in `Parquet` formats on the [Hugging Face](https://huggingface.co/datasets/andynik/combi-puzzles) repository.
 
 ## Abstract
 
 In this study, we examine the ability of recent large language models (LLMs), including LLaMA-2, LLaMA-3.1, GPT-4, and Mixtral, in solving mathematical problems in combinatorics. We introduce the Combi-Puzzles dataset, consisting of 125 problem variants derived from 25 core combinatorial problems, to facilitate these comparisons. The dataset assesses the generalizability of LLMs and includes variations like adversarial, parameterization, and linguistic obfuscation to test models and humans alike. [Link to full paper]
 
-## Dataset Description
+## Dataset
+
+### Dataset Description
 
 The Combi-Puzzles dataset includes:
 - **25 Base Combinatorial Problems**: Covers permutations, combinations, rules of addition/multiplication, and object arrangements.
@@ -25,7 +27,13 @@ The Combi-Puzzles dataset includes:
 
 These variations are designed to thoroughly evaluate problem-solving strategies across different formats.
 
-## Additional Information
+### Problem Example
+
+![Problem Example](images/p10.png)
+
+The image above illustrates an example of a combinatorial problem and its variations. The highlighted text indicates content modifications based on the common version. The mathematical and linguistic obfuscation variations constitute the new text
+
+### Additional Information
 
 The Combi-Puzzles dataset contains problems that have parameters expressed in string format (e.g. 12 as "twelve"). These problems are identified as:
 
@@ -33,21 +41,35 @@ The Combi-Puzzles dataset contains problems that have parameters expressed in st
 
 Please note that all parameters are stored as `strings` in the dataset to ensure consistency.
 
-## Problem Example
+## Experimental setup
 
-![Problem Example](images/p10.png)
+### Installation
 
-The image above illustrates an example of a combinatorial problem and its variations. The highlighted text indicates content modifications based on the common version. The mathematical and linguistic obfuscation variations constitute the new text
+To set up the environment and run the scripts, install the necessary Python (v3.10.12) libraries using the provided `requirements.txt` file:
+
+```bash
+pip install -r requirements.txt
+```
+
+### GPU
+
+NVIDIA Quadro RTX 8000 with 48 GB of RAM.
+
+### OS
+```
+OS Ubuntu 22.04.5 LTS
+OS kernel 6.2.0-37-generic
+```
 
 ## Usage
 
 You are encouraged to use this dataset to further evaluate problem-solving strategies in LLMs or other domains. Please cite our paper if you publish material based on this dataset.
 
-## License
+### License
 
 This dataset is licensed under the MIT License. See the `LICENSE` file for more details.
 
-## Citation
+### Citation
 
 Please cite the following if you use the dataset in your work:
 
