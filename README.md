@@ -8,10 +8,6 @@ This repository contains the Combi-Puzzles dataset used in the research paper ti
 
 The dataset is available in `JSON` and in `Parquet` formats on the [Hugging Face](https://huggingface.co/datasets/andynik/combi-puzzles) repository.
 
-## Abstract
-
-In this study, we examine the ability of recent large language models (LLMs), including LLaMA-2, LLaMA-3.1, GPT-4, and Mixtral, in solving mathematical problems in combinatorics. We introduce the Combi-Puzzles dataset, consisting of 125 problem variants derived from 25 core combinatorial problems, to facilitate these comparisons. The dataset assesses the generalizability of LLMs and includes variations like adversarial, parameterization, and linguistic obfuscation to test models and humans alike. [Link to full paper]
-
 ## Dataset
 
 ### Dataset Description
@@ -21,25 +17,17 @@ The Combi-Puzzles dataset includes:
 - **5 Variations per Problem**:
   - **Common**: Standard textbook form.
   - **Mathematical**: Academic, technical presentation.
-  - **Adversarial**: Includes additional irrelevant information.
+  - **Adversarial**: Includes additional irrelevant numerical information.
   - **Parameterisation**: Altered numerical parameters.
-  - **Linguistic Obfuscation**: Narrative fictional stories with problem context.
-
-These variations are designed to thoroughly evaluate problem-solving strategies across different formats.
+  - **Linguistic Obfuscation**: Narrative fictional stories with problem context and irrelevant information.
 
 ### Problem Example
 
 ![Problem Example](images/p10.png)
 
-The image above illustrates an example of a combinatorial problem and its variations. The highlighted text indicates content modifications based on the common version. The mathematical and linguistic obfuscation variations constitute the new text
+The image above illustrates an example of a combinatorial problem and its variations.
 
-### Additional Information
-
-The Combi-Puzzles dataset contains problems that have parameters expressed in string format (e.g. 12 as "twelve"). These problems are identified as:
-
-- **Problems' ID with String Parameters**: 6, 12, 19, 20.
-
-Please note that all parameters are stored as `strings` in the dataset to ensure consistency.
+More details on the [Hugging Face](https://huggingface.co/datasets/andynik/combi-puzzles) repository.
 
 ## Experimental setup
 
