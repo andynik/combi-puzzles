@@ -4,11 +4,13 @@
 [![Hugging Face Dataset](https://img.shields.io/badge/Hugging%20Face-Dataset-blue)](https://huggingface.co/datasets/andynik/combi-puzzles)
 [![GitHub Repo](https://img.shields.io/badge/GitHub-Repository-181717?logo=github)](https://github.com/andynik/combi-puzzles)
 
-This repository contains the Combi-Puzzles dataset used in the research paper titled "Can Language Models Rival Mathematics Students? Evaluating Mathematical Reasoning through Textual Manipulation and Human Experiments."
-
-The dataset is available in `JSON` and in `Parquet` formats on the [Hugging Face](https://huggingface.co/datasets/andynik/combi-puzzles) repository.
+This repository contains the code and dataset used for a research experiment "Can Language Models Rival Mathematics Students? Evaluating Mathematical Reasoning through Textual Manipulation and Human Experiments".
 
 ## Dataset
+
+The Combi-Puzzles dataset is available in `JSON` and in `Parquet` formats on the [Hugging Face](https://huggingface.co/datasets/andynik/combi-puzzles) repository.
+
+You can also find Ukrainian translation of the puzzleset in the repository.
 
 ### Dataset Description
 
